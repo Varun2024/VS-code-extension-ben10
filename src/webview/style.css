@@ -3,7 +3,7 @@ body {
   overflow: hidden;
 }
 
-#alien {
+/* #alien {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -16,4 +16,15 @@ body {
   0% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
   100% { transform: translateY(0); }
+} */
+
+
+#alien {
+  position: fixed;
+  bottom: 20px;
+  width: 110px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.15s linear;
+  pointer-events: auto;
 }
